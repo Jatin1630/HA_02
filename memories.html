@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  background-image: url(https://i.pinimg.com/originals/4f/6d/05/4f6d052bb1b26150115888ea06d4c106.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.mySlides {display:none;}
+
+ul{
+  list-style-type: none;
+  margin-left:0;
+  padding:0;
+  overflow: hidden;
+  background-color:rgb(0,0,0,0.65);
+  background-attachment: fixed;
+}
+li{
+  float:left;
+
+}
+li a {
+display:block;
+color:white;
+text-align: center;
+padding:14px 16px;
+text-decoration: none;
+}
+li a:hover:not(.active){
+  background-color: #006680;
+}
+.active{
+  background-color:red;
+}
+
+
+.imgmvlogo{
+display: flex;
+  height: 50px;
+  width: 50px;
+  float:right;
+
+}
+.imgvalogo{
+display: flex;
+  height: 50px;
+  width: 50px;
+  float:right;
+
+}
+.imgiitr{
+display: flex;
+height:50px;
+width: 50px;
+float:left;
+margin-left: 5px;
+}
+.imgpgslogo{
+display: flex;
+  height: 50px;
+  width: 50px;
+  float:right;
+}
+
+
+
+
+
+
+
+.end{
+display:block;
+   width: 100%;
+   height: auto;
+   background-color: black;
+   opacity: 0.8;
+  margin-block-start:305px;
+
+}
+#follow{
+color: white;
+font-size: 20px;
+text-align: left;
+padding-top: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+padding: 10px;
+}
+
+.blocks{
+
+display:flex;
+flex-direction: row;
+justify-content:flex-start;
+}
+
+.imgfb{
+height: auto;
+width: 30px;
+padding: 5px;
+
+
+}
+
+.imginsta{
+height: auto;
+width: 30px;
+
+padding: 5px;
+
+
+}
+.imglinkedin{
+height: auto;
+width: 30px;
+padding: 5px;
+
+}
+.imggmail{
+height: auto;
+width: 30px;
+padding: 5px;
+
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <a href="https://www.iitr.ac.in/Main/pages/_en_Indian_Institute_of_Technology_Roorkee__en_.html" >
+    <img  class="imgiitr" src="https://www.iitr.ac.in/departments/ECE/uploads/Image/IITR%20New%20LOGO/new_logowhite.png">
+  </a>
+
+ <li>
+    <a class="active" href="home.html"><b>Home</b></a></li>
+    <li><a href="bio.html"><b>Bio</b></a></li>
+
+    <li><a href="institute.html" ><b>Educational Background</b></a></li>
+    <li><a  href="learninginterests.html"><b>Learning Interests</b></a></li>
+    <li><a  href="hobbies.html"><b>Hobbies</b></a></li>
+    <li><a  href="memories.html"><b>Memories</b></a></li>
+
+    <li><a href="contact.html"><b>Contact</b></a></li>
+
+<a href="https://jlmdav.edu.in" >
+<img class="imgmvlogo" src="LOGO.png" alt="jlm dav public school">
+</a>
+
+<a href="https://www.iitr.ac.in" >
+<img class="imgvalogo" src="IITR.jfif" alt="IITR">
+</a>
+
+
+
+<a href="https://www.allen.ac.in" >
+<img class="imgvalogo" src="logoallen.jpg" alt="Allen Career Institute">
+</a>
+  </ul>
+
+  <div class="w3-content w3-display-container">
+
+  <div class="w3-display-container mySlides">
+    <img src="ba.jpg" style="width:80%">
+    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+     Baijnath Temple
+    </div>
+  </div>
+    <div class="w3-display-container mySlides">
+    <img src="ch.jpg" style="width:80%">
+    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+     Childhood
+    </div>
+  </div>
+    <div class="w3-display-container mySlides">
+    <img src="ca.jpg" style="width:80%">
+    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+     Childhood
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="da.jpg" style="width:90%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      Bhagsunath Waterfall,2016
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="ma.jpg" style="width:90%">
+    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+     Manali,2016
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="c.jpg" style="width:100%">
+    <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+      Childhood
+    </div>
+  </div>
+  <p1 style="color:rgb(250,250,250);">  </p1>
+
+  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
+
+
+
+
+
+
+
+<div class="end">
+  <h id="follow">Follow me at</h>
+<a href="https://www.facebook.com">  <img class="imgfb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/300px-Facebook_icon_2013.svg.png"></a>
+<a href="https://www.instagram.com">  <img class="imginsta" src="https://image.freepik.com/free-vector/instagram-icon_1057-2227.jpg"></a>
+<a href="https://www.linkedin.com">  <img class="imglinkedin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png"></a>
+  <a href="https://www.gmail.com">
+<img class="imggmail" src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/gmail.png "></a>
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
